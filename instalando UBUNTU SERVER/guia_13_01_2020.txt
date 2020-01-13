@@ -1,0 +1,73 @@
+---------------------------------------------------------------------------------------------------------
+diseño web
+http://www.sennova-cies-nds.com.co/edt/efise19/vista/programacion.php
+
+guia aprendizaje
+https://www.smarthomebeginner.com/install-ubuntu-server-16-04/#Install_Ubuntu_Server_1604_LTS_Xenial_Xerus
+
+descarga ubuntu
+http://releases.ubuntu.com/16.04/?_ga=2.12545588.1482334044.1578924729-897228533.1578924729
+
+RUFUS INSTALADOR AUTOMATICO
+https://rufus.ie/
+----------------------------------------------------------------------------------------------------------
+
+como establecer ip fija en ubunto server 16.04
+    https://aprendiendoavirtualizar.com/configurar-ip-estatica-en-ubuntu-server/
+
+
+
+Como actualiar ubunto server 16.04
+
+sudo apt-get update
+     apt-get upgrade
+
+como cambiar puerto SSH
+
+
+
+----------------------------------------------------------------------------------------------------------
+instalar netbeans
+https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
+
+control remoto
+https://www.putty.org/
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+$ sudo nano /etc/network/interfaces
+http://informatica.iesvalledeljerteplasencia.es/wordpress/configuracion-de-red-ip-estatica-en-ubuntu-sever/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
