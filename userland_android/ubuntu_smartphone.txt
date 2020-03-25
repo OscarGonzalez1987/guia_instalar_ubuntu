@@ -1,6 +1,6 @@
 
 // -----------------------------------------------------------------------------
-// chequear versiÛn de ubuntu
+// chequear versi√≥n de ubuntu
 // -----------------------------------------------------------------------------
 
 lsb_release -a
@@ -13,17 +13,15 @@ lsb_release -a
         // -----------------------------------------------------------------
         // lsb-core - wikipedia
         // -----------------------------------------------------------------
-        // La Base Est·ndar para Linux (Linux Standard Base, abreviado LSB), 
+        // La Base Est√°ndar para Linux (Linux Standard Base, abreviado LSB), 
         // es un proyecto conjunto de varias Distribuciones de Linux bajo la 
         // estructura organizativa del Free Standards Group con el objeto de
         // crear y normalizar la estructura interna de los sistemas
         // operativos derivados de Linux.
         //
-        // La LSB est· basada en la EspecificaciÛn  POSIX, la EspecificaciÛn
-        // ⁄nica  de  UNIX (Single UNIX Specification)  y  en  varios  otros
-        // est·ndares abiertos, aunque extiende estos en ciertas ·reas.
-        //
-        // fuentes:
+        // La LSB est√° basada en la Especificaci√≥n  POSIX, la Especificaci√≥n
+        // √önica  de  UNIX (Single UNIX Specification)  y  en  varios  otros
+        // est√°ndares abiertos, aunque extiende estos en ciertas √°reas.
         // -----------------------------------------------------------------
         // https://linuxhint.com/lsb_release_ubuntu/
         // https://es.wikipedia.org/wiki/Linux_Standard_Base
@@ -46,10 +44,10 @@ sudo ip addr show
         // administrar interfaces de red y conexiones en sistemas Linux.
         // Este paquete reemplaza completamente las funcionalidades presentes
         // en ifconfig, route, y arp y las extiende llegando a tener
-        // caracterÌsticas similares a las provistas por dispositivos
-        // exclusivamente dedicados al ruteo y control de tr·fico.
+        // caracter√≠sticas similares a las provistas por dispositivos
+        // exclusivamente dedicados al ruteo y control de tr√°fico.
         // Este paquete lo podemos encontrar incluido en distribuciones de
-        // Debian y RedHat con versiones del n˙cleo mayores a 2.2.
+        // Debian y RedHat con versiones del n√∫cleo mayores a 2.2.
         //
         // -----------------------------------------------------------------
         // https://es.wikipedia.org/wiki/Iproute2
@@ -60,33 +58,33 @@ sudo ip addr show
         ifconfig -a
 
         // El paquete net-tools al que pertenece ifconfig, es un conjunto de
-        // comandos para la configuraciÛn del subsistema de red del n˙cleo Linux
+        // comandos para la configuraci√≥n del subsistema de red del n√∫cleo Linux
         // y, aunque siguen presentes en algunas distribuciones de Linux, otras
         // como Debian 9 stretch consideran que net-tools es un paquete obsoleto
         // (deprecated) y optan por sustituirlo por el paquete iproute2 suite.
-        // iproute2 suite es una herramienta mucho m·s completa y moderna que 
-        // net-tools, por lo que se recomienda su uso para la gestiÛn del del
+        // iproute2 suite es una herramienta mucho m√°s completa y moderna que 
+        // net-tools, por lo que se recomienda su uso para la gesti√≥n del del
         // subsistema de red.
         // Con iproute2 suite podemos hacer lo mismo que con net-tools y, al ser
-        // una suite m·s completa, podremos configurar m·s par·metros que con 
+        // una suite m√°s completa, podremos configurar m√°s par√°metros que con 
         // net-tools.
         // La suite iproute2 incluye todas las funcionalidades que podemos
         // llevar a cabo con los comandos del paquete net-tools.
         // El paquete net-tools se compone de los siguientes comandos:
         // netstat, ifconfig, ipmaddr, iptunnel, mii-tool, nameif, pliconfig,
         // rarp, route, slattach y arp.
-        // El propÛsito de iproute2 suite es reemplazar el conjunto de
+        // El prop√≥sito de iproute2 suite es reemplazar el conjunto de
         // herramientas que componen las net-tools y encargarse de configurar
         // las interfaces  de red, la tabla de enrutamiento y gestionar la tabla
         // ARP.
-        // iproute2 suite tiene la misma funcionalidad que net-tools y, aÒade
+        // iproute2 suite tiene la misma funcionalidad que net-tools y, a√±ade
         // otras funcionalidades que convierten a GNU/Linux en un sistema de 
         // enrutamiento avanzado.
         // Las herramientas que se incluyen en el paquete iproute2 suite son:
         // bridge, devlink, ip, rtacct, rtmon, tc, tipc, ctstat, lnstat, nstat,
         // routef, routel, rtstat, arpd y genl.
         // Algunas de sus funcionalidades son: enrutamiento por origen, balanceo
-        // de carga, tunneling, gestiÛn del ancho de banda, VLAN switching,
+        // de carga, tunneling, gesti√≥n del ancho de banda, VLAN switching,
         // bridging, QoS(Quality of Service), etc
         // -------------------------------------------------------------------------
         // https://www.zeppelinux.es/como-utilizar-iproute2-en-lugar-de-ifconfig/
