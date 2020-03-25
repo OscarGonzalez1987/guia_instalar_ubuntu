@@ -34,7 +34,7 @@ lsb_release -a
 sudo ip addr show
 
     // si no se encuentra el programa, hay que instalar iproute2.
-    // peso: 1821 KB
+    // 1821 KB
 
         sudo apt-get install iproute2
         sudo ip addr show
@@ -53,6 +53,7 @@ sudo ip addr show
         // https://es.wikipedia.org/wiki/Iproute2
 
         // otra salida es instalar net-tools.
+        // 590 KB 
 
         sudo apt-get install net-tools
         ifconfig -a
